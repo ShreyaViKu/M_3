@@ -1,0 +1,159 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff !important;
+  }
+  
+  .nav-link {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff !important;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #ffc107 !important;
+  }
+  
+  h1, h2 {
+    font-weight: bold;
+  }
+  
+  footer {
+    background-color: #0275d8;
+    color: #fff;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  /* Hero Section */
+  header {
+    background-color: #0275d8;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+  }
+  
+  header .btn {
+    font-size: 1.2rem;
+    padding: 10px 30px;
+  }
+  
+  /* Highlights Section */
+  .container h2 {
+    margin-bottom: 30px;
+    color: #0275d8;
+  }
+  
+  .row img {
+    max-width: 100px;
+    margin-bottom: 15px;
+  }
+  
+  .row h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .row p {
+    color: #555;
+  }
+  
+  /* Shop Cards */
+  .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 10px;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-img-top {
+    border-radius: 10px 10px 0 0;
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .card-text {
+    color: #0275d8;
+  }
+  
+  .btn-primary {
+    background-color: #0275d8;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0256a7;
+  }
+  
+  /* Contact Form */
+  form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  form input, form textarea {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  form button {
+    background-color: #0275d8;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  form button:hover {
+    background-color: #0256a7;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    header p {
+      font-size: 1rem;
+    }
+  
+    .card-title {
+      font-size: 1.1rem;
+    }
+  }
+  
